@@ -25,6 +25,8 @@ sub rep {
 # (in order to pass automated tests provided by Mal).
 $MyUserPrompt = "user> ";
 
+
+# TODO: Use Term::ReadLine or something. But... ehhh? There's a perlescent elegance to <>
 print $MyUserPrompt;
 while (<>) {
     chomp;
